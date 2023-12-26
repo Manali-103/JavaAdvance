@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=JavaProject/src&lt;day5{CurrencyConverter.java[CurrencyConverter" modifiers="513" timestamp="1700557323353"/>
+    <typeInfo handle="=JavaProject/src&lt;day5{TestInterface.java[TestInterface" modifiers="513" timestamp="1700560851989"/>
+    <typeInfo handle="=TodoJava/src&lt;toDo5{CourseInfoProcessor.java[CourseInfoProcessor" modifiers="513" timestamp="1701436303469"/>
+    <typeInfo handle="=JavaProject/C:\/Program Files\/Java\/jdk-11\/lib\/jrt-fs.jar`java.base=/module=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;java.lang(Thread.class[Thread" modifiers="33" timestamp="1700222400088"/>
+    <typeInfo handle="=JDBCProject/src&lt;day2{DaoInterface.java[DaoInterface" modifiers="513" timestamp="1701412663074"/>
+    <typeInfo handle="=TodoJava/src&lt;todoJDBC{DaoInterface.java[DaoInterface" modifiers="513" timestamp="1701440784418"/>
+    <typeInfo handle="=SpringProject/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;day7{GreetingService.java[GreetingService" modifiers="513" timestamp="1701835091391"/>
+    <typeInfo handle="=SpringMvcProject/C:\/Users\/HP\/.m2\/repository\/org\/springframework\/spring-web\/5.3.20\/spring-web-5.3.20.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-web-5.3.20.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-web=/=/maven.version=/5.3.20=/=/maven.scope=/compile=/&lt;org.springframework.web(WebApplicationInitializer.class[WebApplicationInitializer" modifiers="1537" timestamp="1701947311476"/>
+    <typeInfo handle="=SpringMvcProject/C:\/Users\/HP\/.m2\/repository\/org\/springframework\/spring-webmvc\/5.3.20\/spring-webmvc-5.3.20.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-webmvc-5.3.20.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-webmvc=/=/maven.version=/5.3.20=/=/maven.scope=/compile=/&lt;org.springframework.web.servlet.config.annotation(WebMvcConfigurer.class[WebMvcConfigurer" modifiers="1537" timestamp="1701947311207"/>
+    <typeInfo handle="=JavaProject/src&lt;day3{Training.java[Training" modifiers="1" timestamp="1701161582695"/>
+</typeInfoHistroy>

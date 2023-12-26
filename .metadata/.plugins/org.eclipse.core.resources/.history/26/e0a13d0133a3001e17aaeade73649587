@@ -1,0 +1,50 @@
+package day4.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import day4.beans.User;
+import day4.beans.UserValidator;
+
+/**
+ * Servlet implementation class UserValidationServlet
+ */
+@WebServlet("/UserValidationServlet")
+public class UserValidationServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+	//private static final boolean valid = false;
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setContentType("text/html");
+		PrintWriter out = response.getWriter();
+		
+		
+		//fetching the request parameters
+		String username = request.getParameter("uid");
+		String password = request.getParameter("pid");
+		
+		
+	 User appUser = new User(username, password);
+	 boolean valid = UserValidator.isValid(appUser);
+		if(valid)
+			out.println("<h2 style='color:green'>Congratulationss you are in</h2>");
+		else
+			out.println("<h2 style='color:red'>Sorry!</h2>");
+	}
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doGet(request, response);
+	}
+}

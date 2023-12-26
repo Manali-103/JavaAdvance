@@ -1,0 +1,5 @@
+package Manali;
+
+public class RestaurantDao implements DaoInterface<T, K> {
+
+}

@@ -1,0 +1,33 @@
+package todo5;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+import day5.beans.Restaurant;
+
+public class CMSMain {
+
+	public CMSMain() {
+		// TODO Auto-generated constructor stub
+	}
+	private static void createNewRestaurant() {
+		// TODO Auto-generated constructor stub
+		Configuration hibernateConfig = new Configuration();
+		hibernateConfig = hibernateConfig.configure();
+		SessionFactory hibernateFactory = hibernateConfig.buildSessionFactory();
+		Session hibernateSession = hibernateFactory.openSession();
+	   Restaurant rst = new Restaurant(7, "Manali","Choclate", 11); 
+	   org.hibernate.Transaction hibernateTransaction = hibernateSession.beginTransaction();
+	   hibernateSession.save(rst);
+	   hibernateTransaction.commit();
+	   hibernateSession.close();
+	   hibernateFactory.close();
+	   System.out.println("Done");
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+       createNewRestaurant();
+	}
+
+}

@@ -1,0 +1,12 @@
+127.0.0.1 - - [08/Dec/2023:16:33:04 +0530] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:16:33:04 +0530] "GET /SpringMvcProject/WEB-INF/classes/day10/controller/SpringMvcController.java HTTP/1.1" 404 1046
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:16:33:20 +0530] "GET /SpringMvcProject/showLogin HTTP/1.1" 200 296
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:16:34:02 +0530] "GET /SpringMvcProject/UserValidationServlet?uid=admin&pid=Manali123 HTTP/1.1" 404 1046
+127.0.0.1 - - [08/Dec/2023:16:38:08 +0530] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:16:38:09 +0530] "GET /SpringMvcProject/WEB-INF/classes/day10/controller/SpringMvcController.java HTTP/1.1" 404 1046
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:16:38:27 +0530] "GET /SpringMvcProject/showLogin HTTP/1.1" 200 296
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:16:38:38 +0530] "GET /SpringMvcProject/UserValidationServlet?uid=admin&pid=Manali123 HTTP/1.1" 404 1046
+127.0.0.1 - - [08/Dec/2023:16:52:38 +0530] "GET / HTTP/1.1" 404 1073
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:16:52:39 +0530] "GET /SpringMvcProject/WEB-INF/classes/day10/controller/SpringMvcController.java HTTP/1.1" 404 1046
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:16:53:02 +0530] "GET /SpringMvcProject/showLogin HTTP/1.1" 200 326
+0:0:0:0:0:0:0:1 - - [08/Dec/2023:16:53:12 +0530] "POST /SpringMvcProject/doValidate HTTP/1.1" 200 174
